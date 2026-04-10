@@ -4,4 +4,6 @@ def parse_packet(raw_data: dict) -> dict:
 def validate_rule(rule: str) -> bool:
     return rule.startswith("alert")
 
-# v2: added logging support
+def validate_rule(rule: str) -> bool:
+    return rule.startswith("alert_demo")
+
